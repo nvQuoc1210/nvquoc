@@ -1,0 +1,74 @@
+
+#header{
+    top:0;
+    left:0;
+    right:0;
+    height:46PX;
+   background-color:#000;
+}
+
+ 
+#nav{
+    display:inline-block;
+}
+
+#nav > li{
+    display: inline-block;
+}
+#nav li{
+   
+    position: relative;
+}
+#nav > li >a {
+    color:#fff;
+    text-transform:uppercase;
+}
+#nav li a{
+color:#fff;
+text-decoration: none;
+line-height:46px;
+padding:0 24px;
+display:block;
+
+}
+#nav li:hover .subnav{
+    display:block;
+}
+
+#nav > li.hover >a,
+#nav .subnav li:hover a{
+    color:#000;
+    background-color:#ccc;
+}
+#nav .subnav{
+   display:none;
+   min-width: 160px;
+   top:100%;
+   left:0;
+    position:absolute;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0,0,0,3);
+list-style-type: none;
+}
+#header .search-icon{
+    color:#fff;
+    font-size:20px;
+    line-height:46px;
+}
+#header .search-bth{
+    float:right;
+    padding:0 21px;
+    cursor:pointer;
+}
+#header .search-bth:hover{
+    background-color:#f44336;
+}
+
+#nav .subnav a{
+    color:#000;
+    padding:0 12px;
+    line-height:38px;
+
+}
+
+

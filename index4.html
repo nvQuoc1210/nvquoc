@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mains.css">
+    <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <style>
+        *{padding :0;
+        margin:0;}
+        body{
+              font-size:14px;
+              line-height:1.15;
+              color:#777;
+        }
+        #wrapper{
+            max-width:1170px;
+            margin:0 auto;
+        }
+        .headline{text-align: center
+            ;
+        margin:40px 0px;}
+        h3{
+            font-size:18px;
+            color:#111;
+            padding:10px 20px;
+            text-transform:uppercase;
+            border:1px solid #bebebe;
+            display:inline-block;
+            color:#555;
+            font-weight:600;
+        }
+        ul.product{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style:none;
+        }
+        ul.product.li{
+            flex-basis:25%;
+            padding-left:15px;
+            padding-right:15px;
+            box-sizing:border-box;
+            margin-bottom:30px;
+        }
+        ul.product.li img{
+            max-width:100%;
+            height:auto;
+        }
+       ul.product li .product-info{
+           display:block;
+           text-decoration: none;
+        }
+        ul.product li .product-top {
+            position: relative;
+            overflow: hidden;
+        }
+        ul.product li .product-top .product-thumb{
+            display: block;  
+        }
+        ul.product li .product-top .product-thumb img{
+            filter:opacity(80%);
+        }
+        ul.product li .product-top a.buy-now{
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+            display: block;
+            background-color: #446084;
+            color: #fff;
+            padding:10px 0;
+            position: absolute;
+            width:100%;
+            bottom:-36px;
+            transition: 0.24s ease-in-out;
+            opacity: 0.85;
+        }
+        ul.product li:hover a.buy-now{
+            bottom:0px;
+
+        }
+        
+        ul.product li .product-info{
+            padding:10px 0px;
+        }
+        ul.product li .product-info a.product-cat{
+            font-size:11px;
+            text-transform: uppercase;
+            color:#9e9e9e;
+            padding:3px 0px;
+
+        }
+        ul.product li .product-info a.product-name{
+            color:#334862;
+            padding:3px 0px;
+        }
+        ul.product li .product-info .product-price{
+            color:#111;
+            padding:2px 0px;
+            font-weight:600;
+
+        }
+    </style>
+
+<div id="main">
+    <div id="header">
+<ul id="nav">
+ <li><a href="#">Trang chủ</a></li>
+ <li><a href="#">Sản Phẩm <i class="ti-angle-down"></i></i></a>
+   
+ 
+    <ul class="subnav">
+       <li><a href="#">SamSung</a></li>
+       <li><a href="#">Xiaomi</a></li>
+       <li><a href="#">Iphone</a></li>
+    </li>
+    </ul>
+
+ <li><a href="#">Hướng Dẫn</a></li>
+ <li><a href="#">Liên Hệ</a></li>
+ <li><a href="#">Đặt hàng</a></li>
+</ul>
+<div class="search-bth">
+ <i class="search-icon ti-search"></i>
+</div>
+
+
+
+ 
+
+
+
+
+    <div class="wrapper">
+        <div class="headline">
+            <h3>Danh sách sản phẩm</h3>
+        </div>
+         <ul class="product">
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/dien-thoai-OPPO-A53-3.png" alt="" style="width:240px;height:200px;"></a>
+<a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại OPPO A53</a>
+                        <a href="oppo A3" class="product-name"></a>
+                        <div class="product-price"> GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/redmi-note-8.jpg" alt="" style="width:240px;height:200px;"></a>
+                        <a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại Redmi Note 8</a>
+                        <a href="#" class="product-name"></a>
+                        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/dien-thoai-v23e_main_202_1020.png.webp" alt="" style="width:240px;height:200px;"></a>
+                        <a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại</a>
+                        <a href="oppo A3" class="product-name"></a>
+                        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/vivo-x80-xanh-thumb-600x600.jpg" alt=""style="width:240px;height:200px;"></a>
+                        <a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại</a>
+                        <a href="oppo A3" class="product-name"></a>
+                        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/apple-iphone-11-7.jpg" alt=""style="width:200px;height:200px;"></a>
+                        <a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại Iphone 11</a>
+                        <a href="oppo A3" class="product-name"></a>
+                        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/ckeditor_3370949.jpg" alt=""style="width:240px;height:200px;"></a>
+                        <a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại Iphone 13</a>
+                        <a href="oppo A3" class="product-name"></a>
+                        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/600_Mi9T_xanh_800x800-min.jpg" alt=""style="width:240px;height:200px;"></a>
+                        <a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại Xiaomi Mi9T</a>
+                        <a href="oppo A3" class="product-name"></a>
+                        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/xiaomi-redmi-note-10-pro-max-600x600-600x600.jpg" alt=""style="width:240px;height:200px;"></a>
+                        <a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại Xiaomi Note 10</a>
+                        <a href="oppo A3" class="product-name"></a>
+                        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/xiaomi-redmi-note-11-128gb-didongviet_1_1.jpeg" alt=""style="width:240px;height:200px;"></a>
+<a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Điện Thoại Xiaomi note 11</a>
+                        <a href="oppo A3" class="product-name"></a>
+                        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-iteam">
+                    <div class="product-top">
+                        <a href="" class="producrt-thumb">
+                        <img src ="image/redmi-k40-600x600-600x600.jpg" alt=""style="width:240px;height:200px;"></a>
+<a href="" class="buy-now">Mua ngay</a>
+                    </div>
+                    
+            <div class="product-info">
+                <a href="" class="product-cat">Điện Thoại Xiaomi note 11</a>
+                <a href="oppo A3" class="product-name"></a>
+                <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="product-iteam">
+            <div class="product-top">
+                <a href="" class="producrt-thumb">
+                <img src ="image/samsung-galaxy-m42-600x600-600x600.jpg" alt=""style="width:240px;height:200px;"></a>
+<a href="" class="buy-now">Mua ngay</a>
+            </div>
+            <div class="product-info">
+                <a href="" class="product-cat">Điện Thoại samsung m42</a>
+                <a href="oppo A3" class="product-name"></a>
+                <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+            </div>
+        
+<li>
+<div class="product-iteam">
+    <div class="product-top">
+        <a href="" class="producrt-thumb">
+        <img src ="image//ckeditor_3370949.jpg" alt=""style="width:200px;height:200px;"></a>
+<a href="" class="buy-now">Mua ngay</a>
+    </div>
+    <div class="product-info">
+        <a href="" class="product-cat">Điện Thoại</a>
+        <a href="oppo A3" class="product-name"></a>
+        <div class="product-price">GIÁ: 2,333,339 VNĐ</div>
+    </div>
+</div>
+</li>
+         </ul>
+
+
+    </div>
+
+
+
+   
+</body>
+
+</html>
